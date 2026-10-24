@@ -1,0 +1,7 @@
+name: genpark-weighted-round-robin-balancer-skill
+description: Nginx-style smooth weighted round-robin load balancer with dynamic weight adjustment for multi-LLM routing
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
