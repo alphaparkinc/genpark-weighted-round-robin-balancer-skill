@@ -1,0 +1,11 @@
+{
+  "name": "genpark-weighted-round-robin-balancer-skill",
+  "version": "1.0.1",
+  "description": "Nginx-style smooth weighted round-robin load balancer with dynamic weight adjustment for multi-LLM routing",
+  "tools": [
+    "add_target",
+    "select_next_target",
+    "set_target_health",
+    "get_balancer_state"
+  ]
+}
